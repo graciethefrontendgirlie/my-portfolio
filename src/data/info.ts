@@ -5,7 +5,7 @@ export const info = {
     title: 'Frontend Developer',
     tagline: 'Frontend Developer · Remote · Open to Work',
     location: 'Nigeria · Remote',
-    availability: 'Immediately available'
+    availability: 'Immediately available',
     status: 'Open to opportunities',
     bio: [
         "I'm a frontend developer based in Nigeria, currently in my first year studying Chemical Engineering at Michael Okpara University of Agriculture, Umudike.",
