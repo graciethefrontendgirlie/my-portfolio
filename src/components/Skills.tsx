@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { FaReact, FaHtml5, FaGitAlt, FaPython } from 'react-icons/fa'
 import { SiTypescript, SiTailwindcss, SiNextdotjs, SiJavascript } from 'react-icons/si'
+import type { ReactElement } from 'react'
 import SectionHeader from './SectionHeader'
 import { skills } from '../data/skills'
 
-const iconMap: Record<string, JSX.Element> = {
+const iconMap: Record<string, ReactElement> = {
   FaReact: <FaReact size={28} color="#61DAFB" />,
   SiTypescript: <SiTypescript size={28} color="#3178C6" />,
   SiTailwindcss: <SiTailwindcss size={28} color="#06B6D4" />,
