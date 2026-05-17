@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-export function useReaveal(threshold = 0.12) {
+export function useReveal(threshold = 0.12) {
     const ref = useRef<HTMLDivElement>(null)
     const [visible, setVisible] = useState(false)
 

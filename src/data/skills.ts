@@ -6,13 +6,13 @@ export interface Skill {
     level: string
 }
 
-export const skill[] = [
-    { icon: '⚛', name: 'React', level: 'Core stack' },
-    { icon: 'TS', name: 'TypeScript', level: 'Core stack' },
-    { icon: '🌊', name: 'Tailwind CSS', level: 'Core stack' },
-    { icon: '▲', name: 'Next.js', level: 'Core stack' },
-    { icon: 'JS', name: 'JavaScript', level: 'Proficient' },
-    { icon: '🐍', name: 'Python', level: 'Proficient' },
-    { icon: '📦', name: 'Git', level: 'Version control' },
-    { icon: '🌐', name: 'HTML & CSS', level: 'Foundation' },
+export const skills: Skill[] = [
+    { icon: 'FaReact', name: 'React', level: 'Core Stack' },
+    { icon: 'SiTypescript', name: 'TypeScript', level: 'Core Stack' },
+    { icon: 'SiTailwindcss', name: 'Tailwind CSS', level: 'Core Stack' },
+    { icon: 'SiNextdotjs', name: 'Next.js', level: 'Proficient' },
+    { icon: 'SiJavascript', name: 'JavaScript', level: 'Proficient' },
+    { icon: 'FaHtml5', name: 'HTML & CSS', level: 'Proficient' },
+    { icon: 'FaGitAlt', name: 'Git', level: 'Proficient' },
+    { icon: 'FaPython', name: 'Python', level: 'Learning' },
 ]
