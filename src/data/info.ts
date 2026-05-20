@@ -19,8 +19,9 @@ export const info = {
     ],
     email: 'workwithgrace.o@gmail.com',
     links: {
-        github: 'https://github.com/',    
-        linkedin: 'https://linkedin.com/', 
-        twitter: 'https://twitter.com/',
-    },
+        github: 'https://github.com/graciethefrontendgirlie',
+        linkedin: 'https://linkedin.com/',
+        twitter: 'https://x.com/okuchi_emmanuel',
+        tiktok: 'http://tiktok.com/@codingwithgrace', 
+  },
 }
