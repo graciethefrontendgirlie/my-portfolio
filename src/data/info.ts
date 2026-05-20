@@ -17,7 +17,7 @@ export const info = {
         { label: 'Technologies mastered', value: 4, suffix: '+', display:'' },
         { label: 'Problems to solve', value: null, suffix: '', display: '∞' },
     ],
-    email: 'graciethedev@gmail.com',
+    email: 'workwithgrace.o@gmail.com',
     links: {
         github: 'https://github.com/',    
         linkedin: 'https://linkedin.com/', 

@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 import Cursor from './components/Cursor'
 function App() {
   return (
-    <div> 
+    <div className="overflow-x-hidden w-full"> 
       <Cursor />
       <Navbar />
       <Hero />

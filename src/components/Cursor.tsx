@@ -34,16 +34,18 @@ export default function Cursor() {
         }
     }, [])
 
-    return (
-        <>
-            <div
-                ref={dotRef}
-                className="fixed w-2 h-2 bg-off-black rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 hidden md:block"
-            />  
-            <div 
-                ref={ringRef}
-                className="fixed w-9 h-9 border border-off-black/30 rounded-full pointer-events-none z-[9998] -translate-x-1/2 -translate-y-1/2 hidden md:block"
-            />  
-        </>
-    )
+   return (
+    <>
+      <div
+        ref={dotRef}
+        className="fixed w-2 h-2 rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 hidden lg:block"
+        style={{ backgroundColor: 'white', mixBlendMode: 'difference' }}
+      />
+      <div
+        ref={ringRef}
+        className="fixed w-9 h-9 rounded-full pointer-events-none z-[9998] -translate-x-1/2 -translate-y-1/2 hidden lg:block"
+        style={{ border: '1px solid white', mixBlendMode: 'difference' }}
+      />
+    </>
+  )
 }
